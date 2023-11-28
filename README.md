@@ -12,12 +12,7 @@ stall pyautogui pyscreenshot pynput PyQt5
 ```
 Additionally, you need a Replicate API key. You can sign up for Replicate and obtain an API key from https://beta.replicate.ai/.
 
-Usage
-Run the script using the following command:
-
-```bash
-python script_runner.py
-```
+## Usage
 The script will open a PyQt window with input fields for the prompt, Replicate API key, and delay. Enter the required information.
 
 Click the "Start Capture" button to capture a screenshot and generate text.
