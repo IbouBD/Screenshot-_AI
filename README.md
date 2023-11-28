@@ -7,7 +7,8 @@ This Python script allows you to capture a screenshot, send it to OpenAI's Repli
 Make sure you have the required Python packages installed. You can install them using the following:
 
 ```bash
-pip install pyautogui pyscreenshot pynput PyQt5
+pip install pyautogui pyscreenshot pynput PyQt5 replicate
+stall pyautogui pyscreenshot pynput PyQt5
 ```
 Additionally, you need a Replicate API key. You can sign up for Replicate and obtain an API key from https://beta.replicate.ai/.
 
