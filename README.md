@@ -1,4 +1,4 @@
-# Screenshot AI with Replicate
+## Screenshot AI with Replicate
 
 This Python script allows you to capture a screenshot, send it to OpenAI's Replicate API for text generation, and display the generated text in a Tkinter window.
 
@@ -25,14 +25,12 @@ The generated text will be displayed in a Tkinter window.
 
 Adjust the delay parameter to control how long the Tkinter window stays open.
 
-Configuration
+##Configuration
 The script saves your prompt, Replicate API key, and delay settings in a config.json file. These settings will be loaded automatically the next time you run the script.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
+##Acknowledgments
 OpenAI for the Replicate API.
 PyQt for the GUI library.
-
-Ia can now explain your screenshot
