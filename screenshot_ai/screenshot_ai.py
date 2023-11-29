@@ -114,7 +114,18 @@ class ScriptRunner(QWidget):
 
                 root.minsize(1500, 200)
                 root.maxsize(1500, 200)
-                root.geometry('1500x100+600+1000')
+                # Récupérer la taille de l'écran
+                screen_width = root.winfo_screenwidth()  
+                screen_height = root.winfo_screenheight()
+                width = 1500
+                height = 200
+
+                # Calculer la position
+                x = int((screen_width / 2) - (width / 2))
+                y = int(screen_height - (height*3))
+
+                # Définir la géométrie  
+                root.geometry(f'{width}x{height}+{x}+{y}')
 
                 root.overrideredirect(1)
 
