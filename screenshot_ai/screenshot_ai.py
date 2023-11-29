@@ -15,7 +15,7 @@ class ScriptRunner(QWidget):
         
         self.initUI()
 
-        with open('config.json') as f:
+        with open('Screenshot-_AI\screenshot_ai\config.json') as f:
             data = json.load(f)
             self.prompt_entry.setText(data['prompt'])
             self.api_entry.setText(data['api_key'])
