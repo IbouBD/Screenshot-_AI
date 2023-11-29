@@ -21,6 +21,10 @@ The generated text will be displayed in a Tkinter window.
 
 Adjust the delay parameter to control how long the Tkinter window stays open.
 
+## Demo
+
+![Demo](path/to/your/demo.gif)
+
 ## Configuration
 The script saves your prompt, Replicate API key, and delay settings in a config.json file. These settings will be loaded automatically the next time you run the script.
 
