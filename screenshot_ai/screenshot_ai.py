@@ -1,11 +1,12 @@
 import sys
-from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QMessageBox, QFormLayout, QLineEdit
-from subprocess import Popen, PIPE
+from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout, QMessageBox, QFormLayout, QLineEdit, QSlider, QSpinBox
+from PyQt5.QtCore import Qt
 import pyscreenshot
 from pynput import mouse
 import replicate
 import os
 import tkinter as tk
+import json
 import json
 
 
