@@ -7,7 +7,6 @@ import replicate
 import os
 import tkinter as tk
 import json
-import json
 
 
 class ScriptRunner(QWidget):
