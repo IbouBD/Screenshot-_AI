@@ -190,7 +190,7 @@ class ScriptRunner(QWidget):
         data['width'] = self.width_spinbox.text()
         data['y'] = self.y_spinbox.text()
 
-                with open('config.json', 'w') as f:
+        with open('config.json', 'w') as f:
                     json.dump(data, f)
 
     def closeEvent(self, event):
