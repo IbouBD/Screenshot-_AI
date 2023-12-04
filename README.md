@@ -8,7 +8,6 @@ Make sure you have the required Python packages installed. You can install them 
 
 ```bash
 pip install pyautogui pyscreenshot pynput PyQt5 replicate
-stall pyautogui pyscreenshot pynput PyQt5
 ```
 Additionally, you need a Replicate API key. You can sign up for Replicate and obtain an API key from https://beta.replicate.ai/.
 
