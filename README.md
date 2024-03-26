@@ -27,8 +27,6 @@ Adjust the delay parameter to control how long the Tkinter window stays open.
 ## Configuration
 The script saves your prompt, Replicate API key, and delay settings in a config.json file. These settings will be loaded automatically the next time you run the script.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 OpenAI for the Replicate API.
